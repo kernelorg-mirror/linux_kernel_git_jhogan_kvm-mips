@@ -1,0 +1,23 @@
+KVM/MIPS Repository
+===================
+
+Maintainer: James Hogan <james.hogan@imgtec.com>
+
+This repository contains some of my work-in-progress for supporting KVM on the
+MIPS architecture, as well as queued patches for pulling by the KVM maintainers.
+
+More information about KVM on MIPS can be found on the linux-mips.org wiki:
+
+https://www.linux-mips.org/wiki/KVM
+
+The main branches are as follows:
+
+kvm_mips_queue:
+	This branch contains the general queue of KVM/MIPS patches to be
+	submitted as a pull request for the KVM maintainers.
+
+staging/$version/$feature:
+	These branches contain specific patchsets that have been submitted
+	upstream or are undergoing review. They may be rebased. The version
+	number is approximate and may refer to the cycle when the work was being
+	prepared rather than the release it will be merged in.
