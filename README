@@ -12,12 +12,6 @@ https://www.linux-mips.org/wiki/KVM
 
 The main branches are as follows:
 
-kvm_mips_queue:
-	This branch contains the general queue of KVM/MIPS patches to be
-	submitted as a pull request for the KVM maintainers.
-
-staging/$version/$feature:
-	These branches contain specific patchsets that have been submitted
-	upstream or are undergoing review. They may be rebased. The version
-	number is approximate and may refer to the cycle when the work was being
-	prepared rather than the release it will be merged in.
+next:
+	This branch contains the queue of KVM/MIPS patches for the next release.
+	This branch may occasionally be rebased, and is included in linux-next.
