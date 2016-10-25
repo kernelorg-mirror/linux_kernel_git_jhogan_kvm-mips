@@ -12,6 +12,19 @@ https://www.linux-mips.org/wiki/KVM
 
 The main branches are as follows:
 
+master:
+	This branch contains the queue of KVM/MIPS fixes for the current
+	release, based on the master branch of:
+
+	git://git.kernel.org/pub/scm/virt/kvm/kvm.git
+
+	This branch may occasionally be rebased, and may be merged into the next
+	branch.
+
 next:
-	This branch contains the queue of KVM/MIPS patches for the next release.
+	This branch contains the queue of KVM/MIPS patches for the next release
+	(including fixes for the current release), based on the next branch of:
+
+	git://git.kernel.org/pub/scm/virt/kvm/kvm.git
+
 	This branch may occasionally be rebased, and is included in linux-next.
